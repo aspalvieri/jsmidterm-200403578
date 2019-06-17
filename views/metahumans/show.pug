@@ -1,0 +1,11 @@
+extends ../layouts/main.pug
+block content
+  .container
+    header
+      h1= metahuman.title
+
+    div
+      h1= metahuman.fullName
+        .small Alias: #{metahuman.alias}
+      h2 Affiliation: #{metahuman.affiliation}
+      h2 Metatype: #{metahuman.metatype}
